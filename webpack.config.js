@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 const webpack = require('webpack');
 
@@ -27,12 +29,6 @@ const elm_module = {
   loader: 'elm-webpack-loader',
 };
 
-const html_module = {
-  test: /\.html/,
-  include: [source_path],
-  loader: 'file-loader?name=[name].[ext]',
-};
-
 const main_config = {
   entry: './src/index.js',
   output: {
@@ -41,7 +37,7 @@ const main_config = {
   },
 
   module: {
-    rules: [elm_module, html_module]
+    rules: [elm_module]
   },
 
   plugins: [

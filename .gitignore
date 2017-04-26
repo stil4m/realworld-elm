@@ -12,6 +12,8 @@ elm-stuff
 *.launch
 .settings/
 
+# Build Files
+/public/app.js
 
 #System Files
 .DS_Store
