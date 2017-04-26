@@ -1,0 +1,17 @@
+{
+  "name": "realworld-elm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Dtatoo/realworld-elm.git",
+  "author": "<jok068@mail.usask.ca>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-webpack-loader": "^4.3.0",
+    "file-loader": "^0.11.1",
+    "webpack": "^2.4.1"
+  }
+}
