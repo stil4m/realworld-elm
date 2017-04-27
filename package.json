@@ -1,0 +1,15 @@
+{
+  "name": "realworld-elm",
+  "version": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-webpack-loader": "^4.3.0",
+    "file-loader": "^0.11.1",
+    "webpack": "^2.4.1"
+  }
+}

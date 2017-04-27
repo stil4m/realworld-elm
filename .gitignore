@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /bower_components
+elm-stuff
 
 # IDEs and editors
 /.idea
@@ -11,6 +12,8 @@
 *.launch
 .settings/
 
+# Build Files
+/public/app.js
 
 #System Files
 .DS_Store
